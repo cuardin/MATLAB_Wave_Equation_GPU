@@ -4,13 +4,13 @@ This folder contains two demos that use the wave equation. For
 troubleshooting, see further down.
 
 ## Requirements:
-MATLAB
+* MATLAB
 
 ### Recommended:
-Parallel Computing Toolbox + supported GPU
-Image Acquisition Toolbox with the OS Generic Video Interface hadware 
+* Parallel Computing Toolbox + supported GPU
+* Image Acquisition Toolbox with the OS Generic Video Interface hadware 
 support package + Webcam.
-MATLAB Coder
+* MATLAB Coder
 
 ## standalone_script.m
 This file runs the wave equation continuously with motion captured by a 

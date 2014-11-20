@@ -1,18 +1,18 @@
-=Wave equation flashy demo
+# Wave equation flashy demo
 
 This folder contains two demos that use the wave equation. For 
 troubleshooting, see further down.
 
-==Requirements:
+## Requirements:
 MATLAB
 
-===Recommended:
+### Recommended:
 Parallel Computing Toolbox + supported GPU
 Image Acquisition Toolbox with the OS Generic Video Interface hadware 
 support package + Webcam.
 MATLAB Coder
 
-==standalone_script.m
+## standalone_script.m
 This file runs the wave equation continuously with motion captured by a 
 webcamera as input. Experience shows that it workes best when people are 
 about 3-7m away from the camera.
@@ -23,7 +23,7 @@ error check other than that it crashes if the conditions are not met.
 
 Start it, run it in full-screen, leave it.
 
-==wave_equation_gui.m
+## wave_equation_gui.m
 This is a fully featured UI with several modes that can run both on CPU 
 and GPU. The program detectes the processor and GPU models used and give 
 speedup figures. If there is an error connecting to the webcamera (or none 
@@ -35,7 +35,7 @@ and an interactive mode that is fun to play with.
 Modern CPUs tend to run best at 512x512 resolution. Fermi Teslas at 1024. 
 The wave equation parameters are optimized for these resolutions as well.
 
-==Troubleshooting:
+## Troubleshooting:
 
 * If there is an error with the camera or no camera option appears in the 
 UI, edit setupCamera.m as needed to return a videoinput object that produces 
